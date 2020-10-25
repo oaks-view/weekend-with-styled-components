@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier",
+    "react"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "max-len": [
+      "error",
+      130
+    ],
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "off",
+    "import/no-unresolved": "off",
+    "import/no-dynamic-require": "off",
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "import/no-extraneous-dependencies": "off",
+    "react/prop-types": [
+      "error",
+      {
+        "skipUndeclared": true
+      }
+    ]
+  }
+}
